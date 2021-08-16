@@ -1,190 +1,217 @@
 :root {
-    --main-font: 'Open Sans', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --accent: #FF6C00;
-    --joe-black: #303030;
-    --gray-sky: #555555;
-    --steel: #9DA4BD;
-    --snow-white: #FFFFFF;
+  --main-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent: #ff6c00;
+  --joe-black: #303030;
+  --gray-sky: #555555;
+  --steel: #9da4bd;
+  --snow-white: #ffffff;
 }
 
 body {
-    font-family: var(--main-font);
+  font-family: var(--main-font);
 }
-
 
 /* --- COMPONENTS --- */
 .modal-btn {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: 1px solid var(--accent);
-    background-color: transparent;
-    box-sizing: border-box;
-    border-radius: 25px;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.333;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid var(--accent);
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
 }
 
 .modal-btn--dark-bg {
-    color: var(--snow-white);
+  color: var(--snow-white);
 }
 
 .modal-btn--light-bg {
-    color: var(--joe-black);
+  color: var(--joe-black);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color: var(--accent);
-    color: var(--snow-white);
+  background-color: var(--accent);
+  color: var(--snow-white);
 }
 
 .social-links__link {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.364;
-    letter-spacing: 0.2em; 
-    color: var(--joe-black);  
-    transform: rotate(-90deg);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: var(--joe-black);
+  /* transform: rotate(-90deg); */
 }
 
 .social-links__link:hover,
 .social-links__link:focus {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .subtitle {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.364;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .subtitle--dark-bg {
-    color: rgba(157, 164, 189, 0.6);
+  color: rgba(157, 164, 189, 0.6);
 }
 
 .subtitle--light-bg {
-    color: var(--joe-black);
+  color: var(--joe-black);
+}
+
+.subtitle--contact-bg {
+  color: var(--snow-white);
 }
 
 .description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.667;
-    letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
 }
 
 .description--dark-bg {
-    color: var(--steel);
+  color: var(--steel);
 }
 
 .description--light-bg {
-    color: var(--gray-sky);
+  color: var(--gray-sky);
 }
 
 .secondary-header {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.167;
-    letter-spacing: 0.05em;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
 }
 
 .secondary-header--dark-bg {
-    color: var(--snow-white);
+  color: var(--snow-white);
 }
 
 .secondary-header--light-bg {
-    color: var(--joe-black);
+  color: var(--joe-black);
 }
 /* --- END COMPONENTS --- */
-
 
 /* --- HEADER --- */
 .navigation__link,
 .header__phone-number {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.333;
-    letter-spacing: 0.1em;
-    color: var(--snow-white);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+  color: var(--snow-white);
 }
 
 .navigation__link:hover,
 .navigation__link:focus,
 .header__phone-number:hover,
 .header__phone-number:focus {
-    color: var(--accent);
+  color: var(--accent);
 }
 /* --- END HEADER --- */
 
-
 /* --- HERO --- */
 .main-header {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 1.181;
-    letter-spacing: 0.05em;
-    color: var(--snow-white);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.181;
+  letter-spacing: 0.05em;
+  color: var(--snow-white);
 }
 /* --- END HERO --- */
 
-
 /* --- ABOUT --- */
 .about__text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.857;
-    letter-spacing: 0.02em;
-    color: var(--gray-sky);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.857;
+  letter-spacing: 0.02em;
+  color: var(--gray-sky);
 }
 /* --- END ABOUT --- */
 
-
 /* --- SERVICES --- */
 .services__text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.667;
-    letter-spacing: 0.02em;
-    color: var(--steel);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--steel);
 }
 /* --- END SERVICES --- */
 
-
 /* --- WHY US --- */
 .advantages__number {
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.357;
-    letter-spacing: 0.05em;
-    color: var(--joe-black);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.357;
+  letter-spacing: 0.05em;
+  color: var(--joe-black);
 }
 
 .advantages__text {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.364;
-    color: var(--joe-black);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  color: var(--joe-black);
 }
 /* --- END WHY US --- */
 
-
 /* --- BARBERS --- */
+.barbers__name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.389;
+  letter-spacing: 0.02em;
+  color: var(--joe-black);
+}
 
+.barbers__job-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.357;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
 /* --- END BARBERS --- */
 
 /* --- GALLERY --- */
+
 /* --- END GALLERY --- */
 
 /* --- CONTACT --- */
+.address__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--steel);
+}
 /* --- END CONTACT --- */
 
 /* --- FOOTER --- */
+.footer__text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: var(--steel);
+}
 /* --- END FOOTER --- */
